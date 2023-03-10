@@ -12,3 +12,5 @@ jobs:
         uses: planetoftheweb/copy-to-branches@v1.2
         env:
           key: main
+          # By default it will copy dev container information to all branches which we don't want
+          exclude: ./vscode/settings.json .devcontainer/devcontainer.json
