@@ -13,4 +13,5 @@ jobs:
         env:
           key: main
           # By default it will copy dev container information to all branches which we don't want
-          exclude: ./vscode/settings.json .devcontainer/devcontainer.json
+          # And I want .gitignore to be copied over
+          files: LICENSE NOTICE README.md CONTRIBUTING.md .gitignore .github/CODEOWNERS .github/ISSUE_TEMPLATE.MD .github/PULL_REQUEST_TEMPLATE.MD .github/workflows/main.yml
