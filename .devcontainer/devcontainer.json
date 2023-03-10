@@ -1,20 +1,26 @@
 {
-    "build": {
-        "dockerfile": "Dockerfile"
-    },
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
 
-    "updateContentCommand": "npm install",
-    "postAttachCommand": "npm start",
+  "updateContentCommand": "npm install",
+  "postAttachCommand": "npm start",
 
-    "remoteUser": "node",
+  "remoteUser": "node",
 
-    "forwardPorts": [3000],
+  "forwardPorts": [3000],
 
-    // More options on containers.dev
-    "portsAttributes": {
-        "3000": {
-            "label": "React.js",
-            "onAutoForward": "openPreview"
-        }
+  // More options on containers.dev
+  "portsAttributes": {
+    "3000": {
+      "label": "React.js",
+      "onAutoForward": "openPreview"
     }
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": ["esbenp.prettier-vscode"]
+    }
+  }
 }
