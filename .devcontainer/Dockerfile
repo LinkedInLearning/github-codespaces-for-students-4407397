@@ -1,0 +1,1 @@
+FROM mcr.microsoft.com/vscode/devcontainer/javascript-node:latest
