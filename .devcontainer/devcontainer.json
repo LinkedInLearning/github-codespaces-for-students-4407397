@@ -6,5 +6,13 @@
     "updateContentCommand": "npm install",
     "postAttachCommand": "npm start",
 
+    "forwardPorts": [3000],
+    "portsAttributes": {
+        "3000": {
+            "label": "React App",
+            "onAutoForward": "openPreview"
+        }
+    },
+
     "remoteUser": "node"
 }
