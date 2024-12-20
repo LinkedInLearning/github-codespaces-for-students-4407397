@@ -1,4 +1,7 @@
 # GitHub Codespaces for Students
+
+ToastedScorpion was here...
+
 This is the repository for the LinkedIn Learning course GitHub Codespaces for Students. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![GitHub Codespaces for Students][lil-thumbnail-url] 
