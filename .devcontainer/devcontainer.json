@@ -1,0 +1,10 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+
+    "updateContentCommand": "npm install",
+    "postAttachCommand": "npm start",
+
+    "remoteUser": "node"
+}
